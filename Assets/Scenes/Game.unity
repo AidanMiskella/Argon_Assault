@@ -546,6 +546,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1369191577}
     m_Modifications:
+    - target: {fileID: 114032000684596438, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4765256838916578, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.26
@@ -578,6 +583,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1666048804185368, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1784460560605404, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114032000684596438, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 1383782028}
+    - target: {fileID: 114032000684596438, guid: 6b2f6692602716a49bcce1133bba67e3,
+        type: 2}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 537195713}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b2f6692602716a49bcce1133bba67e3, type: 2}
   m_IsPrefabParent: 0
@@ -643,6 +666,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &537195713 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1784460560605404, guid: 6b2f6692602716a49bcce1133bba67e3,
+    type: 2}
+  m_PrefabInternal: {fileID: 418550819}
 --- !u!1 &550077420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,6 +1362,11 @@ MonoBehaviour:
   progressStyle: 0
   pointToPointThreshold: 4
   target: {fileID: 1369191577}
+--- !u!1 &1383782028 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1666048804185368, guid: 6b2f6692602716a49bcce1133bba67e3,
+    type: 2}
+  m_PrefabInternal: {fileID: 418550819}
 --- !u!4 &1407725115 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,

@@ -61,6 +61,11 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision) {
 
-        print("Hit");
+        print("Collision");
+    }
+
+    private void OnTriggerEnter(Collider other) {
+
+        print("Trigger");
     }
 }

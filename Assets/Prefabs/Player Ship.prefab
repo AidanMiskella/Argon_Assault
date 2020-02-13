@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 198702482828707582}
   - component: {fileID: 199601703351103424}
   m_Layer: 0
-  m_Name: Bullets
+  m_Name: Bullets Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 198814739879990334}
   - component: {fileID: 199691310162362670}
   m_Layer: 0
-  m_Name: Bullets (1)
+  m_Name: Bullets Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3695,7 +3695,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 604169017
+  randomSeed: -1297312829
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7012,7 +7012,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 759202915
+  randomSeed: -1623477220
   InitialModule:
     serializedVersion: 3
     enabled: 1

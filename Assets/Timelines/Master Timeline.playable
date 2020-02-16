@@ -1950,11 +1950,11 @@ MonoBehaviour:
   m_Parent: {fileID: 114493890198869480}
   m_Children: []
   m_Clips:
-  - m_Start: 47.983333333333334
+  - m_Start: 46.2
     m_ClipIn: 0
     m_Asset: {fileID: 114998817224686176}
     m_UnderlyingAsset: {fileID: 114998817224686176}
-    m_Duration: 19.566666666666666
+    m_Duration: 23.45
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114668848201318674}
     m_EaseInDuration: 0
@@ -2268,7 +2268,7 @@ MonoBehaviour:
     m_ClipIn: 0
     m_Asset: {fileID: 114662676231641432}
     m_UnderlyingAsset: {fileID: 114535512215999418}
-    m_Duration: 5
+    m_Duration: 7.633333333333334
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114741884182148950}
     m_EaseInDuration: 0
